@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Finger+Paint&family=Rampart+One&display=swap');
+
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: linear-gradient(white, #f9d4c8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@theme {
+  --font-barriecito: "Barriecito", system-ui;
+  --font-finger: "Finger Paint", sans-serif;
+  --font-rampart: "Rampart One", sans-serif;
+}
