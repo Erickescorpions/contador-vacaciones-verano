@@ -28,7 +28,7 @@ function App() {
     <>
       {!load &&
         <div>
-          <button onClick={handleLoad} className='bg-rose-400 text-white rounded-xl p-4 font-bold hover:bg-rose-300 '>Ver conteo</button>
+          <button onClick={handleLoad} className='bg-rose-400 text-white rounded-xl p-4 font-bold hover:bg-rose-300 '>Ver tiempo restante</button>
         </div>
       }
       {load && (
